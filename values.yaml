@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: suchetamaitra/sample-ruby
+  repository: docker-integration.cernerrepos.net/sse/pre-check
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: latest
+  tag: 0.1.0-20210930T142020Z
 
 imagePullSecrets: []
 nameOverride: ""
